@@ -7,15 +7,15 @@ const Modificarbio = () => {
          <section className="panel">
             <div className="vista-previa">
                <h1>Aqui va la imagen</h1>
-               <input type="file" className="cargar" accept="image/*" />
-               <button>Modificar Imagenes</button>
+               <input className="input" type="file"  accept="image/*" />
+               <button className="guardar">Modificar Imagenes</button>
             </div>
             <div className="vista-previa">
                <h1>Aqui va la descripción actual</h1>
-               <textarea name="" id="" cols="30" rows="10">
+               <textarea className="input"name="" id="" cols="30" rows="10">
                   Ingrese el nuevo texto de biografía
                </textarea>
-               <button>Modificar Biografia</button>
+               <button className="guardar">Modificar Biografia</button>
             </div>
          </section>
       </section>
