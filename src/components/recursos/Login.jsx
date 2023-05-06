@@ -1,5 +1,5 @@
 import React from 'react'
-import fotousu from '../img/fotousu.png'
+import fotousu from '../../assets/img/fotousu.png'
 
 function Login(){
   return(

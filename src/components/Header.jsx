@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../../public/Camara-logo.png'
-import insta from '../../public/instagram.jpg'
+import logo from '../assets/img/Camara-logo.png'
+import insta from '../assets/img/instagram.jpg'
 
 const Header = () => {
   return (
