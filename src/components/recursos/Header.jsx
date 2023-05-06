@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/img/Camara-logo.png'
-import insta from '../assets/img/instagram.jpg'
+import logo from '../../assets/img/Camara-logo.png'
+import insta from '../../assets/img/instagram.jpg'
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
       </section>
       <section className='logo'>
       
-      <img src={logo} alt="" />
+      <img src={logo} alt="Logo" />
          
       </section>
       
