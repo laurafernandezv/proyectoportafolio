@@ -1,11 +1,11 @@
 import React from 'react'
 import Header from './Header'
 import { Link } from 'react-router-dom'
-import burguerKing from '../../public/burguerKing.png'
-import mcdonals from '../../public/mcdonalds.png'
-import deli from '../../public/deli.jpg'
-import aptlujo from '../../public/lujoapt.jpg'
-import casalujo from '../../public/casa-lujo.jpg'
+import burguerKing from '../assets/img/burguerKing.png'
+import mcdonals from '../assets/img/mcdonalds.png'
+import deli from '../assets/img/deli.jpg'
+import aptlujo from '../assets/img/lujoapt.jpg'
+import casalujo from '../assets/img/casa-lujo.jpg'
 
 const Main = () => {
   return (
