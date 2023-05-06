@@ -7,9 +7,9 @@ const Gestionprod = () => {
          <Nav />
          <section className="panel">
             <section className="panel-conf">
-               <button className="input">Modificar Album</button>
-               <button className="input">Borrar Album</button>
-               <button className="input">Ocultar Album</button>
+               <button className="btnadmi">Modificar Album</button>
+               <button className="btnadmi">Borrar Album</button>
+               <button className="btnadmi">Ocultar Album</button>
             </section>
             <section className="panel-vpalbum">
                <h1>Vista previa de los albumnes</h1>

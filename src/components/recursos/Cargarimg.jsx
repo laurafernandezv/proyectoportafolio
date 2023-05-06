@@ -11,7 +11,6 @@ const Cargarimg = () => {
             </section>
             <section className="vista-previa">
                <label className="nombre" >Nombre de producción</label>
-             
                
                <input className="texto" type="text" placeholder="" />  
                <div>
@@ -25,8 +24,8 @@ const Cargarimg = () => {
             </section>
             <section className="panel-categoria">
                
-               <label className="checkbox"><input type="checkbox" name="" id="" />Gastronomia</label>
-               <label ><input type="checkbox" name="" id="" />Arquitectura</label>
+               <label className="checkbox"><input type="radio" name="categoria" value="gastronomia" />Gastronomia</label>
+               <label ><input type="radio" name="categoria" value="arquitectura" />Arquitectura</label>
             </section>
          
             <button className="guardar">Guardar</button>
