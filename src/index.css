@@ -173,6 +173,7 @@
 color: #f3c23f;
 }
 
+
 /*termina Gestionprod*/
 /*Inicia Modificarbio*/
 .modificar{
@@ -184,3 +185,115 @@ color: #f3c23f;
     border-radius: 15px;
     
 }
+
+/*Inicia Gestionprod*/
+
+
+/*inicia contacto*/
+
+.contacto{
+    display: flex;
+
+}
+.form{
+    padding: 25px;
+    margin: 30px;
+}
+
+
+.input{
+    display: flex;
+    height: 45px;
+    width: 600px;
+    background-color: white;
+    border-style: solid 10px;
+    border-radius: 30px;
+    border-color: #F3C623; 
+    font-family: 'Roboto Mono', monoespaciado; ;
+    font-size: 30px;
+    margin-top: 25px;
+    padding: 2px;
+    justify-content: center;
+
+}
+
+.inputmensaje{
+    display: flex;
+    background-color: white;
+    border-radius: 50px; 
+    border-style: solid 10px;
+    height: 350px;
+    width: 600px;
+    border-color: #F3C623;
+    margin-top: 25px;
+    padding: 2px;
+    font-family: 'Roboto Mono', monoespaciado;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+       
+}
+.buttoncontacto{
+
+/*inicia login*/
+.login{
+justify-content: center;  
+align-items: center;
+margin-left: 30%;
+         
+}
+.fotousuario{
+    display: flex;
+    margin-top: 25px;
+    padding: 20px;
+    width: 410px;
+    height: 250px;
+    justify-content: center;
+    margin-left: 8%;
+}
+
+.check{
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Roboto Mono', monoespaciado;
+    font-size: 30px;
+    color: #F3C623;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.buttonlogin{
+
+    background-color: #F3C623;
+    height: 72px;
+    width: 130px;
+    border-radius: 30px;
+    border-color: black;
+    padding: 10px;
+    margin-left: 25%;
+
+    margin-top: 30px;
+    font-family: 'Roboto Mono', monoespaciado;
+    font-size: 30px;
+    color: black;
+    }
+
+    .fotografo{
+        display: flex;
+        height: 680px;
+        width: 1150px;
+        margin-left: 10%;
+        margin-top: 65px;
+        padding: 10px;
+      
+    
+       
+    }
+    /*fin contacto */
+   
+
+    /*finaliza login*/
+
+

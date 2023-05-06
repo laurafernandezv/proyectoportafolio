@@ -3,6 +3,7 @@ import Cargarimg from "./components/recursos/Cargarimg";
 import Gestionprod from "./components/recursos/Gestionprod";
 import Modificarbio from "./components/recursos/Modificarbio";
 
+
 const router = createBrowserRouter([
    {
       path: "/upload",
@@ -18,7 +19,8 @@ const router = createBrowserRouter([
       path: "/modificarbio",
       element: <Modificarbio />,
       errorElement: <h1>Pagina no encontrada</h1>
-   }
+   },
+
 ]);
 function App() {
    return (
