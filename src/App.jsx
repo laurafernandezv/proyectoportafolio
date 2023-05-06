@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Cargarimg from "./components/recursos/Cargarimg";
 import Gestionprod from "./components/recursos/Gestionprod";
 import Modificarbio from "./components/recursos/Modificarbio";
+import Main from "./components/Main";
 
 
 const router = createBrowserRouter([
