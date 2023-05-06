@@ -7,27 +7,31 @@ const Cargarimg = () => {
          <Nav />
          <section className="panel">
             <section className="panel-carga">
-               <input type="file" className="cargar" accept="image/*" />
+               <input className="file" type="file"  accept="image/*" />
             </section>
             <section className="vista-previa">
+               <label className="nombre" >Nombre de producción</label>
+             
+               
+               <input className="texto" type="text" placeholder="" />  
                <div>
-                  vista previa imagenes
+                  *vista previa imagenes*
                </div>
-               <input type="text" placeholder="Nombre producción fotografica" />
-               <textarea
+               <textarea className="texto"
                   cols="30"
                   rows="10"
                   placeholder="Agregar descripción de la producción fotografica"></textarea>
-               <button>Guardar Producción fotografica</button>
+               
             </section>
             <section className="panel-categoria">
-               <select name="" id="">
-                  <option value="gastronomia">Gastronomía</option>
-                  <option value="arquitectura">Arquitectura</option>
-               </select>
-               <input type="button" value="Guardar Categoria" />
+               
+               <label className="checkbox"><input type="checkbox" name="" id="" />Gastronomia</label>
+               <label ><input type="checkbox" name="" id="" />Arquitectura</label>
             </section>
+         
+            <button className="guardar">Guardar</button>
          </section>
+         
       </section>
    );
 };
