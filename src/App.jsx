@@ -4,6 +4,7 @@ import Gestionprod from "./components/recursos/Gestionprod";
 import Modificarbio from "./components/recursos/Modificarbio";
 import Main from "./components/Main";
 
+
 const router = createBrowserRouter([
    {
       path: "/upload",
@@ -20,11 +21,7 @@ const router = createBrowserRouter([
       element: <Modificarbio />,
       errorElement: <h1>Pagina no encontrada</h1>
    },
-   {
-      path: '/',
-      element: <Main />,
-      errorElement: <h1>El elemento no existe</h1>
-    }
+
 ]);
 function App() {
    return (
