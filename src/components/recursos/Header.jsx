@@ -9,7 +9,7 @@ const Header = () => {
       <section className='menu-navegacion'>
         <Link to={'/'}>INICIO</Link>
         <Link to={'/bio'}>BIO</Link>
-        <Link to={'/contacto'}>HEADER</Link>
+        <Link to={'/contacto'}>CONTACTO</Link>
     
       </section>
       <section>

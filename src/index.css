@@ -201,13 +201,18 @@
 /*inicia contacto*/
 
 .contacto {
-  display: flex;
+height: 90vh;
+width: 100%;
+background-color: black;
+
 
 }
 
-.form {
-  padding: 25px;
-  margin: 30px;
+.form-contacto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 
@@ -259,15 +264,13 @@
 }
 
 .fotografo {
-  display: flex;
-  height: 680px;
-  width: 1150px;
-  margin-left: 10%;
-  margin-top: 65px;
-  padding: 10px;
+  height: 700px;
+  width: 700px;
+}
 
-
-
+.fotografo img {
+  height: 100%;
+  width: 100%;
 }
 
 /*fin contacto */
@@ -345,6 +348,8 @@
 }
 
 .encabezado {
+  background-color: black;
+  border-bottom: solid 3px #f3c23f;
   display: flex;
   justify-content: space-between;
   align-items: center;
