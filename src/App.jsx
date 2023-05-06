@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Cargarimg from "./components/recursos/Cargarimg";
 import Gestionprod from "./components/recursos/Gestionprod";
 import Modificarbio from "./components/recursos/Modificarbio";
-import Contacto from "./components/recursos/Contacto";
+
 
 const router = createBrowserRouter([
    {
@@ -20,10 +20,7 @@ const router = createBrowserRouter([
       element: <Modificarbio />,
       errorElement: <h1>Pagina no encontrada</h1>
    },
-     {
-      path:"/contacto",
-      element: <Contacto />,
-    },
+
 ]);
 function App() {
    return (
