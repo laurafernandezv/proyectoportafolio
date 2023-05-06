@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from'@emailjs/browser';
-import fotografo from '../img/fotografo.jpg'
+import fotografo from '../../assets/img/fotografo.jpg'
 
 function Contacto () {
 const[nombre,setNombre]= useState('')

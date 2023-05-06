@@ -9,9 +9,20 @@ import Produccion2 from './componentes/Produccion2'
 import Produccion3 from './componentes/Produccion3'
 import Produccion4 from './componentes/Produccion4'
 import Produccion5 from './componentes/Produccion5'
+import Main from "./components/Main";
+import Contacto from "./components/recursos/Contacto"
+import Login from "./components/recursos/Login"
+
 
 
 const router = createBrowserRouter([
+
+   {
+      path: "/",
+      element: <Main />,
+      errorElement: <h1>Pagina no encontrada</h1>
+
+   },
    {
       path: "/upload",
       element: <Cargarimg />,
@@ -62,6 +73,18 @@ const router = createBrowserRouter([
       element: <Produccion5 />,
       errorElement: <h1>El elemento no existe</h1>
     }
+
+   {
+      path: "/contacto",
+      element: <Contacto />,
+      errorElement: <h1>Pagina no encontrada</h1>
+   },
+
+   {
+      path: "/login",
+      element: <Login />,
+      errorElement: <h1>Pagina no encontrada</h1>
+   },
 
 ]);
 function App() {
