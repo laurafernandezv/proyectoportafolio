@@ -131,3 +131,108 @@
 
 
 /*Inicia Gestionprod*/
+
+/*Inicia Header y pagina princial*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+  height: 200px;
+ 
+ 
+}
+.encabezado img {
+  width: 150px;
+  background-color: yellow;
+
+}
+.insta{
+  width: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.img:hover {
+  opacity: 0.3;
+}
+
+.menu-navegacion {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+ 
+  text-decoration: none;
+}
+.boton{
+  border-radius: 200px;
+  text-decoration: none;
+  justify-content: center;
+ 
+ 
+}
+
+a {
+  width: 200px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+  text-transform: uppercase;
+  color: yellow;
+ 
+}
+
+a:hover {
+  transition: ease-in-out 0.4s;
+  background-color: 2px 2px 2px white;
+  color: white;
+
+}
+.imagenes{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 300px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.vistapp{
+  margin-right: 10%;
+  margin-top: 1%;
+  margin-left: 5%;
+  display: flex;
+ 
+}
+.footer{
+  
+  color:white;
+  background-color:white;
+}
+/*finaliza header y vista principal*/
