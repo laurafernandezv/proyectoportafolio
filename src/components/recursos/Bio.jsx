@@ -4,6 +4,7 @@ import Header from './Header'
 const Bio = () => {
   return (
     <div>
+      <h1>hola</h1>
       <Header/>
     </div>
   )
